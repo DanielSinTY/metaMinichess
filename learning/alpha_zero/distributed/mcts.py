@@ -1,4 +1,4 @@
-from games.dark.DarkChessGame import DarkChessGame
+from metaMinichess.games.dark.DarkChessGame import DarkChessGame
 import logging
 import math
 import numpy as np

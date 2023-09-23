@@ -1,5 +1,5 @@
 import copy
-from games.gardner.GardnerMiniChessGame import GardnerMiniChessGame
+from metaMinichess.games.gardner.GardnerMiniChessGame import GardnerMiniChessGame
 import os
 import sys
 import time
@@ -8,8 +8,8 @@ import numpy as np
 from numpy.lib.function_base import average
 from tqdm import tqdm
 
-from learning.alpha_zero.distributed.utils import *
-from learning.alpha_zero.distributed.pytorch.NeuralNet import NeuralNet
+from metaMinichess.learning.alpha_zero.distributed.utils import *
+from metaMinichess.learning.alpha_zero.distributed.pytorch.NeuralNet import NeuralNet
 
 import torch
 import torch.optim as optim

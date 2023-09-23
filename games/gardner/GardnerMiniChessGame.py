@@ -1,7 +1,7 @@
 from __future__ import print_function
 import sys
-from games import Game
-from games.gardner.GardnerMiniChessLogic import Board
+from metaMinichess.games import Game
+from metaMinichess.games.gardner.GardnerMiniChessLogic import Board
 import numpy as np
 import time
 import hashlib

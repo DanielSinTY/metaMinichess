@@ -1,8 +1,8 @@
 from __future__ import print_function
 import sys
-from games import Game
-from games.gardner.GardnerMiniChessGame import GardnerMiniChessGame
-from games.dark.DarkChessLogic import DarkBoard as Board
+from metaMinichess.games import Game
+from metaMinichess.games.gardner.GardnerMiniChessGame import GardnerMiniChessGame
+from metaMinichess.games.dark.DarkChessLogic import DarkBoard as Board
 import numpy as np
 import time
 import hashlib

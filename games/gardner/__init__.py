@@ -1,1 +1,1 @@
-from games.gardner.GardnerMiniChessGame import GardnerMiniChessGame
+from metaMinichess.games.gardner.GardnerMiniChessGame import GardnerMiniChessGame
