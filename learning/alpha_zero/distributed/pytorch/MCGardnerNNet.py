@@ -1,6 +1,6 @@
 import sys
 
-from learning.alpha_zero.distributed.utils import *
+from metaMinichess.learning.alpha_zero.distributed.utils import *
 
 import argparse
 import torch
