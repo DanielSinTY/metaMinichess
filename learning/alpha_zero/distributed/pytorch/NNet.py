@@ -19,13 +19,13 @@ from .MCGardnerNNet import MCGardnerNNet as mcnet
 # LEN_ACTION_SPACE = 1225
 
 class NNetWrapper(NeuralNet):
-    def __init__(self, game, args):
-        self.nnet = mcnet(game, args)
+    def __init__(self, game):
+        self.nnet = mcnet(game)
         self.game = game
         self.board_x, self.board_y = (5, 5)
         self.action_size = GardnerMiniChessGame().getActionSize()
 
-        self.args = args.copy()
+        # self.args = args.copy()
 
         # if self.args['cuda']: # can't happen with multiprocessing
         #     self.nnet.cuda()

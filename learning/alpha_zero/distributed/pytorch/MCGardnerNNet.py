@@ -11,15 +11,15 @@ from torchvision import datasets, transforms
 from torch.autograd import Variable
 
 class MCGardnerNNet(nn.Module):
-    def __init__(self, game, args):
+    def __init__(self, game):
         # game params
         self.game = game
         # self.board_x, self.board_y = (self.game.width, self.game.height)
         self.board_x, self.board_y = (5, 5)
         self.action_size = self.game.getActionSize()
-        self.args = args
+        # self.args = args
 
-        num_channels = args['num_channels']
+        num_channels = 3
         self.num_channels = num_channels
 
         super(MCGardnerNNet, self).__init__()
