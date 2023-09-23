@@ -24,6 +24,7 @@ class NNetWrapper(NeuralNet):
         self.game = game
         self.board_x, self.board_y = (5, 5)
         self.action_size = GardnerMiniChessGame().getActionSize()
+        self.args={'cuda':False}
 
         # self.args = args.copy()
 
