@@ -1,1 +1,1 @@
-from games.dark.DarkChessGame import DarkChessGame
+from metaMinichess.games.dark.DarkChessGame import DarkChessGame

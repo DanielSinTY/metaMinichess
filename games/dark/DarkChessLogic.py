@@ -1,4 +1,4 @@
-from games.gardner.GardnerMiniChessLogic import Board
+from metaMinichess.games.gardner.GardnerMiniChessLogic import Board
 import numpy as np
 
 
