@@ -1,1 +1,1 @@
-from games.game import Game
+from metaMinichess.games.game import Game
